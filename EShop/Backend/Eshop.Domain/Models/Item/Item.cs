@@ -2,6 +2,7 @@
 {
     public class Item : BaseModel
     {
+        public Guid UserId { get; set; }
         public string Name { get; set; } = string.Empty;
         public decimal Price { get; set; }
         public string ThumbnailUri { get; set; } = string.Empty;

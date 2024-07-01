@@ -2,7 +2,7 @@
 
 namespace Eshop.Domain.Models.Order
 {
-    internal class Order : BaseModel
+    public class Order : BaseModel
     {
         public Guid UserId { get; set; }
         public Address? DeliveryAddress { get; set; }
